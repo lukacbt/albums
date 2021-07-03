@@ -1,0 +1,251 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Prljavo kazalište"
+    },
+    {
+      "id": 2,
+      "name": "Tony Cetinski"
+    },
+    {
+      "id": 3,
+      "name": "Rolling Stones"
+    },
+    {
+      "id": 4,
+      "name": "Eminem"
+    },
+    {
+      "id": 5,
+      "name": "Adele"
+    },
+    {
+      "id": 6,
+      "name": "Doris Dragović"
+    },
+    {
+      "id": 7,
+      "name": "Dalmatino"
+    }
+  ],
+  "albums": [
+    {
+      "id": 0,
+      "title": "Radio Dubrava",
+      "price": "$129.99",
+      "releaseDate": "2003-03-29T00:00:00-07:00",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/hr/thumb/e/e6/Prljavo_kazali%C5%A1te_-_Radio_Dubrava.jpg/220px-Prljavo_kazali%C5%A1te_-_Radio_Dubrava.jpg",
+      "favorite": false,
+      "artistId": 1
+    },
+    {
+      "title": "Možda dogodine",
+      "price": "$9",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/hr/6/6f/Mozda_dogodine.jpg",
+      "releaseDate": "2012-03-29T00:00:00-07:00",
+      "favorite": false,
+      "id": 1,
+      "artist": {
+        "id": 1,
+        "name": "Prljavo kazalište"
+      },
+      "artistId": 1
+    },
+    {
+      "title": "Prah i pepeo",
+      "price": "$99.99",
+      "imageUrl": "https://www.scardona.hr/media/catalog/product/cache/1/image/800x800/85e4522595efc69f496374d01ef2bf13/t/o/tony_cetinski_-_prah_i_pepeo_300dpi.jpg",
+      "releaseDate": "1996-03-29T00:00:00-07:00",
+      "favorite": false,
+      "id": 2,
+      "artist": {
+        "id": 2,
+        "name": "Tony Cetinski"
+      },
+      "artistId": 2
+    },
+    {
+      "title": "Opet si pobijedila",
+      "price": "$19.99",
+      "imageUrl": "https://img.discogs.com/s9oBHNCjbXa20i6o_llHzSgIwUs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15480340-1592232787-4896.jpeg.jpg",
+      "releaseDate": "2012-03-29T00:00:00-07:00",
+      "favorite": true,
+      "id": 3,
+      "artist": {
+        "id": 2,
+        "name": "Tony Cetinski"
+      },
+      "artistId": 2
+    },
+    {
+      "title": "Kao u snu",
+      "price": "$19.99",
+      "imageUrl": "https://images.genius.com/597a3d186b16cfe51f613a49dc0e3d55.995x995x1.jpg",
+      "releaseDate": "2018-03-29T00:00:00-07:00",
+      "favorite": false,
+      "id": 4,
+      "artist": {
+        "id": 2,
+        "name": "Tony Cetinski"
+      },
+      "artistId": 2
+    },
+    {
+      "title": "Black and Blue",
+      "price": "$129.99",
+      "imageUrl": "https://muzikercdn.com/uploads/products/4739/473960/thumb_d_gallery_base_83e15a88.jpg",
+      "releaseDate": "1976-03-29T00:00:00-07:00",
+      "favorite": false,
+      "id": 5,
+      "artist": {
+        "id": 3,
+        "name": "Rolling Stones"
+      },
+      "artistId": 3
+    },
+    {
+      "title": "Tattoo You",
+      "price": "$9",
+      "imageUrl": "https://muzikercdn.com/uploads/products/4739/473979/73c8c828.jpg",
+      "releaseDate": "1981-03-29T00:00:00-07:00",
+      "favorite": true,
+      "id": 6,
+      "artist": {
+        "id": 3,
+        "name": "Rolling Stones"
+      },
+      "artistId": 3
+    },
+    {
+      "title": "Bridges to Babylon",
+      "price": "$99.99",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81Xk7r1chrL._SL1200_.jpg",
+      "releaseDate": "1997-03-29T00:00:00-07:00",
+      "artistId": 3,
+      "favorite": false,
+      "id": 7
+    },
+    {
+      "title": "Revival",
+      "price": "$19.99",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71pSCRiMfXL._SL1050_.jpg",
+      "releaseDate": "2017-03-29T00:00:00-07:00",
+      "favorite": true,
+      "id": 8,
+      "artist": {
+        "id": 4,
+        "name": "Eminem"
+      },
+      "artistId": 4
+    },
+    {
+      "title": "Kamikaze",
+      "price": "$19.99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Eminem_-_Kamikaze.jpg",
+      "releaseDate": "2018-03-29T00:00:00-07:00",
+      "artistId": 4,
+      "favorite": false,
+      "id": 9
+    },
+    {
+      "title": "Slim Shady",
+      "price": "$129.99",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81L0Y2-Jy0L._SL1455_.jpg",
+      "releaseDate": "1997-03-29T00:00:00-07:00",
+      "favorite": true,
+      "id": 10,
+      "artistId": 4
+    },
+    {
+      "title": "Encore",
+      "price": "$9",
+      "imageUrl": "https://www.njuskalo.hr/image-w920x690/cd/eminem-encore-cd-slika-79899576.jpg",
+      "releaseDate": "2004-03-29T00:00:00-07:00",
+      "artistId": 4,
+      "favorite": false,
+      "id": 11
+    },
+    {
+      "title": "19",
+      "price": "$99.99",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61oS8T4cjLL._SY450_.jpg",
+      "releaseDate": "2008-03-29T00:00:00-07:00",
+      "artistId": 5,
+      "favorite": false,
+      "id": 12
+    },
+    {
+      "title": "21",
+      "price": "$19.99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png",
+      "releaseDate": "2011-03-29T00:00:00-07:00",
+      "artistId": 5,
+      "favorite": false,
+      "id": 13
+    },
+    {
+      "title": "25",
+      "price": "$19.99",
+      "imageUrl": "https://thumbs.static-thomann.de/thumb/orig/pics/bdb/374429/15303038_800.jpg",
+      "releaseDate": "2015-03-29T00:00:00-07:00",
+      "artistId": 5,
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "title": "Malo mi za sriću triba",
+      "price": "$129.99",
+      "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/f4/58/dd/f458ddfb-5e74-4eaa-57ee-7bc13e18e78d/downloadcontent.php.jpg/600x600bf-60.jpg",
+      "releaseDate": "2002-03-29T00:00:00-07:00",
+      "artistId": 6,
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "title": "Živim po svom",
+      "price": "$9",
+      "imageUrl": "https://img.discogs.com/KpQAAjpnIaE97e7LKJNqFDyRnQs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2288932-1274689237.jpeg.jpg",
+      "releaseDate": "1997-03-29T00:00:00-07:00",
+      "artistId": 6,
+      "favorite": false,
+      "id": 16
+    },
+    {
+      "title": "Rođendan u Zagrebu",
+      "price": "$99.99",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273c9ed92656f462edf70a9dfb5",
+      "releaseDate": "1996-03-29T00:00:00-07:00",
+      "artistId": 6,
+      "favorite": false,
+      "id": 17
+    },
+    {
+      "title": "Baklje Ivanjske",
+      "price": "$19.99",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273b9c875f011fee033a2f774aa",
+      "releaseDate": "1995-03-29T00:00:00-07:00",
+      "artistId": 6,
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "title": "Cukar i sol",
+      "price": "$19.99",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/hr/e/e0/Dalmatino_cukar_i_sol.jpg",
+      "releaseDate": "2002-03-29T00:00:00-07:00",
+      "artistId": 7,
+      "favorite": false,
+      "id": 19
+    },
+    {
+      "title": "Lipa rič",
+      "price": "$19.99",
+      "imageUrl": "https://img.discogs.com/5cSfWbZa5e7PBX6p7zfMSKJrdO8=/fit-in/480x480/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-5008976-1396127946-9318.jpeg.jpg",
+      "releaseDate": "2009-03-29T00:00:00-07:00",
+      "artistId": 7,
+      "favorite": false,
+      "id": 20
+    }
+  ]
+}
