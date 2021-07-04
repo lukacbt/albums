@@ -7,3 +7,7 @@ export const ContentContainer = styled.div`
     margin: 0 auto;
     box-sizing: content-box;
 `
+
+export const PageContainer = styled.div`
+    padding: 50px 0 80px;
+`

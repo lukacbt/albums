@@ -1,16 +1,11 @@
-import React, { useContext } from 'react'
-import { useArtistAlbums } from '../../hooks/useArtistAlbums'
+import React from 'react'
 import { Album } from '../albums'
-import { AlbumsContext } from '../../context/albumsContext'
 import { Loader } from '../common/Loader'
 
-export const HomePage = () => {
-    const { artistAlbums } = useContext(AlbumsContext)
-    const { updateAlbums } = useArtistAlbums('albums')
-
-    return artistAlbums.length
+export const HomePage = ({albums, updateAlbums}) => {
+    return albums.length
         ?
-        artistAlbums.map(album =>
+        albums.map(album =>
             <Album
                 artistName={album.artist.name}
                 artistId={album.artist.id}

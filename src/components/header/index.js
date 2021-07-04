@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import styled from '@emotion/styled'
 import { ContentContainer } from '../../parameters/ui'
-import { Colors } from '../../parameters/styles'
-import { Search } from './Search'
+import { Colors, mediaQuery } from '../../parameters/styles'
+import { Search } from './search'
 import { useRouter } from 'next/router'
 import { AlbumsContext } from '../../context/albumsContext'
 import { GoBack } from '../common/GoBack'
@@ -10,7 +10,7 @@ import { GoBack } from '../common/GoBack'
 export const Header = () => {
     const [path, setPath] = useState('')
     const router = useRouter()
-    const { artistAlbums } = useContext(AlbumsContext)
+    const { artist } = useContext(AlbumsContext)
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
@@ -21,7 +21,7 @@ export const Header = () => {
     return (
         <FlexContainer>
             <HeaderWrapper>
-                <Title>{artistAlbums.name || 'Album list'}</Title>
+                <Title>{artist.name || 'Album list'}</Title>
                 {
                     path === '/'
                     ?
@@ -44,6 +44,11 @@ export const HeaderWrapper = styled(ContentContainer)`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    ${mediaQuery.mobile} {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
 `
 
 export const Title = styled.h2`

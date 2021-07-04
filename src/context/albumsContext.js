@@ -3,10 +3,11 @@ import React, { createContext, useState } from 'react'
 export const AlbumsContext = createContext()
 
 export const AlbumsContextProvider = (props) => {
-    const [ artistAlbums, setArtistAlbums ] = useState([])
+    const [ albums, setAlbums ] = useState([])
+    const [ artist, setArtist ] = useState({})
 
     return (
-        <AlbumsContext.Provider value={{artistAlbums, setArtistAlbums}}>
+        <AlbumsContext.Provider value={{ albums, setAlbums, artist, setArtist }}>
             {props.children}
         </AlbumsContext.Provider>
     )
